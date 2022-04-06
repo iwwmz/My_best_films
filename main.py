@@ -6,7 +6,7 @@ from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
 import requests
 
-API_KEY = 'b46718e9dc97ccacf8da94c7adfcc5f6'
+API_KEY = YOUR_API_KEY
 MDB_session = requests.get(f'https://api.themoviedb.org/3/authentication/guest_session/new?api_key={API_KEY})')
 
 
